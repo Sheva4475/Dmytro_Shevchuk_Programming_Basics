@@ -79,7 +79,7 @@ english_average = english_sum/students_number
 python_average = python_sum/students_number
 
 with open(OUTPUT_FILE, "w") as f:
-    f.write("Середній бал по класу\n")
+    f.write("Середній бал по класу:\n")
     f.write(f"math: {round(math_average,1)}\n")
     f.write(f"python: {round(python_average,1)}\n")
     f.write(f"english: {round(english_average,1)}\n\n")
